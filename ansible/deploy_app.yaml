@@ -1,0 +1,8 @@
+---
+- name: Deploy test app
+  hosts: all
+  become: yes
+  tasks:
+    - name: Print Hello
+      debug:
+        msg: "Hello from Ansible playbook triggered by Jenkins!"
