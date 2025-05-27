@@ -1,6 +1,6 @@
 ---
 - name: Deploy test app
-  hosts: webserver
+  hosts: 3.110.105.142 
   become: yes
   tasks:
     - name: Print Hello
