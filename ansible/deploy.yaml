@@ -1,6 +1,6 @@
 ---
 - name: Deploy Web App
-  hosts: 3.110.105.142 
+  hosts: Webserver
   become: yes
 
   tasks:
